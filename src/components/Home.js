@@ -1,5 +1,5 @@
 import React from 'react';
-// import TitleList from "./TitleList";
+import TitleList from "./Titlelist";
 
 function Home() {
   return (
@@ -8,7 +8,7 @@ function Home() {
         Welcome to <b>Microblog</b>, our innovative site for communicating
         on the information superhighway.
       </p>
-      {/* <TitleList /> */}
+      <TitleList />
     </main>
   );
 }
